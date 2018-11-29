@@ -1,0 +1,29 @@
+{
+  "name": "node-argv-fork",
+  "version": "0.0.8",
+  "description": "Parse argv as String or process.argv",
+  "main": "./index",
+  "author": "Gabriele Di Stefano & Leonardo Thibes",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "node node_modules/mocha/bin/mocha -R dot ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabrieleds/node-argv"
+  },
+  "keywords": [
+    "argv",
+    "arguments",
+    "cli"
+  ],
+  "homepage": "https://github.com/gabrieleds/node-argv"
+}
