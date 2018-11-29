@@ -1,6 +1,6 @@
 {
   "name": "node-argv-fork",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "description": "Parse argv as String or process.argv",
   "main": "./index",
   "author": "Gabriele Di Stefano & Leonardo Thibes",
